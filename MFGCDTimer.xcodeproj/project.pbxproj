@@ -15,6 +15,7 @@
 		1F8FAD4E2194698A0063436A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FAD4D2194698A0063436A /* main.m */; };
 		1F8FAD582194698A0063436A /* MFGCDTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FAD572194698A0063436A /* MFGCDTimerTests.m */; };
 		1F8FAD632194698A0063436A /* MFGCDTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FAD622194698A0063436A /* MFGCDTimerUITests.m */; };
+		1F8FAD72219469C20063436A /* MFGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FAD70219469C20063436A /* MFGCDTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1F8FAD5E2194698A0063436A /* MFGCDTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFGCDTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8FAD622194698A0063436A /* MFGCDTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFGCDTimerUITests.m; sourceTree = "<group>"; };
 		1F8FAD642194698A0063436A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8FAD70219469C20063436A /* MFGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFGCDTimer.m; sourceTree = "<group>"; };
+		1F8FAD71219469C20063436A /* MFGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFGCDTimer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1F8FAD3F219469890063436A /* AppDelegate.m */,
 				1F8FAD41219469890063436A /* ViewController.h */,
 				1F8FAD42219469890063436A /* ViewController.m */,
+				1F8FAD71219469C20063436A /* MFGCDTimer.h */,
+				1F8FAD70219469C20063436A /* MFGCDTimer.m */,
 				1F8FAD44219469890063436A /* Main.storyboard */,
 				1F8FAD472194698A0063436A /* Assets.xcassets */,
 				1F8FAD492194698A0063436A /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8FAD43219469890063436A /* ViewController.m in Sources */,
+				1F8FAD72219469C20063436A /* MFGCDTimer.m in Sources */,
 				1F8FAD4E2194698A0063436A /* main.m in Sources */,
 				1F8FAD40219469890063436A /* AppDelegate.m in Sources */,
 			);
